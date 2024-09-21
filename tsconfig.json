@@ -6,6 +6,12 @@
     "target": "es5",
     "jsx": "react-jsx",
     "allowJs": true,
+    // For absolute imports
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
+
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
