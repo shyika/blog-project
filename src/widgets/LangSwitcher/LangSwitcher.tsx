@@ -9,13 +9,13 @@ interface LangSwitcherProps {
 
 export const LangSwitcher = (props: LangSwitcherProps) => {
     const {
-        className
+        className,
     } = props;
     const { t, i18n } = useTranslation();
 
     const onToggle = () => {
         i18n.changeLanguage(i18n.language === 'en' ? 'ua' : 'en');
-    }
+    };
 
     return (
         <Button
