@@ -1,4 +1,7 @@
 {
   "Main page": "Головна сторінка",
-  "Language": "Українська"
+  "Language": "Українська",
+  "Main page link": "Головна сторінка",
+  "About page link": "Про нас",
+  "toggle": "toggle"
 }

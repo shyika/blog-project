@@ -7,7 +7,7 @@ module.exports = {
     extends: [
         'plugin:react/recommended',
         'airbnb',
-        // 'plugin:i18next/recommended',
+        'plugin:i18next/recommended',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -20,7 +20,7 @@ module.exports = {
     plugins: [
         'react',
         '@typescript-eslint',
-        // 'i18next',
+        'i18next',
         'react-hooks',
         // 'ulbi-tv-plugin',
         'unused-imports',
@@ -42,24 +42,24 @@ module.exports = {
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
-        // 'i18next/no-literal-string': [
-        //     'error',
-        //     {
-        //         markupOnly: true,
-        //         ignoreAttribute: [
-        //             'as',
-        //             'role',
-        //             'data-testid',
-        //             'border',
-        //             'to',
-        //             'target',
-        //             'justify',
-        //             'align',
-        //             'direction',
-        //             'gap',
-        //         ],
-        //     },
-        // ],
+        'i18next/no-literal-string': [
+            'error',
+            {
+                markupOnly: true,
+                ignoreAttribute: [
+                    'as',
+                    'role',
+                    'data-testid',
+                    'border',
+                    'to',
+                    'target',
+                    'justify',
+                    'align',
+                    'direction',
+                    'gap',
+                ],
+            },
+        ],
         'max-len': ['error', { ignoreComments: true, code: 125 }],
         'jsx-a11y/no-static-element-interactions': 'off',
         'jsx-a11y/click-events-have-key-events': 'off',
@@ -90,13 +90,13 @@ module.exports = {
         __API__: true,
         __PROJECT__: true,
     },
-    // overrides: [
-    //     {
-    //         files: ['**/src/**/*.{test,stories}.{ts,tsx}'],
-    //         rules: {
-    //             'i18next/no-literal-string': 'off',
-    //             'max-len': 'off',
-    //         },
-    //     },
-    // ],
+    overrides: [
+        {
+            files: ['**/src/**/*.{test,stories}.{ts,tsx}'],
+            rules: {
+                'i18next/no-literal-string': 'off',
+                'max-len': 'off',
+            },
+        },
+    ],
 };
