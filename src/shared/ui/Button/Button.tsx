@@ -16,7 +16,7 @@ export const Button = (props: ButtonProps) => {
     const {
         className,
         children,
-        theme = ThemeButton.CLEAR,
+        theme,
         ...otherProps
     } = props;
 
