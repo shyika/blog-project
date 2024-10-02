@@ -63,8 +63,6 @@ export const Modal = (props: ModalProps) => {
     const mods: Record<string, boolean> = {
         [cls.opened]: isOpen,
         [cls.isClosing]: isClosing,
-        // @ts-ignore
-        [cls[theme]]: true,
     };
 
     return (
