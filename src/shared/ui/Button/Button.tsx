@@ -22,6 +22,7 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement>, PropsWithChildr
     theme?: ButtonTheme,
     square?: boolean,
     size?: ButtonSize,
+    disabled?: boolean,
 }
 
 // We should use memo in 90% of code
@@ -35,17 +36,20 @@ export const Button = (props: ButtonProps) => {
         theme,
         square,
         size = ButtonSize.M,
+        disabled,
         ...otherProps
     } = props;
 
     const mods: Record<string, boolean> = {
         [cls.square]: square,
+        [cls.disabled]: disabled,
     };
 
     return (
         <button
             type="button"
             className={classNames(cls.button, mods, [className, cls[theme], cls[size]])}
+            disabled={disabled}
             {...otherProps}
         >
             {children}

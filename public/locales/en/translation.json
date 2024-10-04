@@ -7,5 +7,8 @@
   "Lang": "En",
   "Log in": "Log in",
   "Username": "Username",
-  "Password": "Password"
+  "Password": "Password",
+  "Authorization form": "Authorization form",
+  "Incorrect username or password": "Incorrect username or password",
+  "Log out": "Log out"
 }
