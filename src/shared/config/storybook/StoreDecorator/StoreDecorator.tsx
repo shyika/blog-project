@@ -10,7 +10,7 @@ const defaultAsyncReducers: Partial<ReducersMapObject<StateSchema>> = {
 
 export const StoreDecorator = (
     state: Partial<StateSchema>,
-    asyncReducers: Partial<ReducersMapObject<StateSchema>>,
+    asyncReducers?: Partial<ReducersMapObject<StateSchema>>,
 ) => (Story: PartialStoryFn<ReactRenderer, StrictArgs>) => (
     <StoreProvider initialState={state} asyncReducers={{ ...defaultAsyncReducers, ...asyncReducers }}>
         <Story />
