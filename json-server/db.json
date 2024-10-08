@@ -9,12 +9,19 @@
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "123"
     }
   ],
   "profile": {
-    "name": "typicode"
+    "first": "Taras",
+    "lastname": "Shyika",
+    "age": 34,
+    "currency": "UAH",
+    "country": "Ukraine",
+    "city": "Lviv",
+    "username": "admin",
+    "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Sunglasses&hairColor=BrownDark&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Red&eyeType=Default&eyebrowType=Default&mouthType=Smile&skinColor=Light"
   }
 }

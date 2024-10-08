@@ -1,14 +1,16 @@
 {
   "Main page": "Головна сторінка",
   "Language": "Українська",
-  "Main page link": "Головна сторінка",
+  "Main page link": "Головна",
   "About page link": "Про нас",
+  "Profile page link": "Профіль",
   "Page is not found": "Сторінка не знайдена",
   "Lang": "Укр",
   "Log in": "Увійти",
-  "Username": "Username",
-  "Password": "Password",
-  "Authorization form": "Authorization form",
-  "Incorrect username or password": "Incorrect username or password",
-  "Log out": "Log out"
+  "Username": "Імя",
+  "Password": "Пароль",
+  "Authorization form": "Форма авторозації",
+  "Incorrect username or password": "Не правильний логін або пароль",
+  "Log out": "Вийти",
+  "Profile page": "Сторінка профіля"
 }

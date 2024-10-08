@@ -1,10 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
+import { fn } from '@storybook/test';
 import LoginForm from './LoginForm';
 
 const meta = {
     title: 'features/AuthByUsername/LoginForm',
     component: LoginForm,
+    args: {
+        onSuccess: fn(),
+    },
 } satisfies Meta<typeof LoginForm>;
 
 export default meta;

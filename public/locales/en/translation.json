@@ -1,8 +1,9 @@
 {
   "Main page": "Main page",
   "Language": "English",
-  "Main page link": "Main page",
-  "About page link": "About page",
+  "Main page link": "Main",
+  "About page link": "About",
+  "Profile page link": "Profile",
   "Page is not found": "Page is not found",
   "Lang": "En",
   "Log in": "Log in",
@@ -10,5 +11,6 @@
   "Password": "Password",
   "Authorization form": "Authorization form",
   "Incorrect username or password": "Incorrect username or password",
-  "Log out": "Log out"
+  "Log out": "Log out",
+  "Profile page": "Profile page"
 }

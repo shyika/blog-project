@@ -1,4 +1,4 @@
-import { HTMLAttributes, PropsWithChildren } from 'react';
+import { HTMLAttributes, memo, PropsWithChildren } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 
 import cls from './Button.module.scss';
@@ -29,7 +29,7 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement>, PropsWithChildr
 // We shouldn't wrap components with children props into memo HOC!!!
 // But Button is an exception because we will have simple text as a children property
 // Usually we will have some tree of nodes passed as a children. Therefore, we shouldn't use memo.
-export const Button = (props: ButtonProps) => {
+export const Button = memo((props: ButtonProps) => {
     const {
         className,
         children,
@@ -55,4 +55,4 @@ export const Button = (props: ButtonProps) => {
             {children}
         </button>
     );
-};
+});

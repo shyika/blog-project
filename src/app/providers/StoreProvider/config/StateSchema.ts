@@ -4,13 +4,15 @@ import { LoginSchema } from 'features/AuthByUsername';
 import {
     EnhancedStore, Reducer, ReducersMapObject, UnknownAction,
 } from '@reduxjs/toolkit';
+import { ProfileSchema } from 'entities/Profile';
 import { createReduxStore } from './store';
 
 export interface StateSchema {
     counter: CounterSchema;
     user: UserSchema;
     // Async reducers
-    loginForm?: LoginSchema
+    loginForm?: LoginSchema;
+    profile?: ProfileSchema;
 }
 
 export type AppDispatch = ReturnType<typeof createReduxStore>['dispatch']
