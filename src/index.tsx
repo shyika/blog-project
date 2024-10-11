@@ -9,7 +9,7 @@ import 'app/styles/index.scss';
 import './shared/config/i18n/i18n';
 
 // Render your React component instead
-const root = createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root')!);
 root.render(
     <BrowserRouter>
         <StoreProvider>
