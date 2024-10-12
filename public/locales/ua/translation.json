@@ -11,5 +11,7 @@
   "Password": "Пароль",
   "Authorization form": "Форма авторозації",
   "Incorrect username or password": "Не правильний логін або пароль",
-  "Log out": "Вийти"
+  "Log out": "Вийти",
+  "Currency": "Currency",
+  "Country": "Country"
 }

@@ -2,5 +2,13 @@
   "Profile": "Profile",
   "Edit": "Edit",
   "Last Name": "Last Name",
-  "First Name": "First Name"
+  "First Name": "First Name",
+  "Error during profile loading": "Error during profile loading",
+  "Try to reload the page": "Try to reload the page",
+  "Cancel": "Cancel",
+  "Save": "Save",
+  "City": "City",
+  "Age": "Age",
+  "Username": "Username",
+  "Avatar": "Avatar"
 }
