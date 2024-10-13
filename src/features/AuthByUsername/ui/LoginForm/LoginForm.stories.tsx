@@ -4,7 +4,7 @@ import { fn } from '@storybook/test';
 import LoginForm from './LoginForm';
 
 const meta = {
-    title: 'features/AuthByUsername/LoginForm',
+    title: 'features/LoginForm',
     component: LoginForm,
     args: {
         onSuccess: fn(),
