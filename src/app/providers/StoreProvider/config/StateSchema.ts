@@ -7,6 +7,7 @@ import {
 import { ProfileSchema } from 'entities/Profile';
 import { AxiosInstance } from 'axios';
 import { NavigateFunction } from 'react-router-dom';
+import { ArticleDetailsSchema } from 'entities/Article';
 import { createReduxStore } from './store';
 
 export interface StateSchema {
@@ -15,6 +16,7 @@ export interface StateSchema {
     // Async reducers
     loginForm?: LoginSchema;
     profile?: ProfileSchema;
+    articleDetails?: ArticleDetailsSchema;
 }
 
 export type AppDispatch = ReturnType<typeof createReduxStore>['dispatch']
