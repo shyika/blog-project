@@ -102,6 +102,30 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "text": "test comment",
+      "userId": "1",
+      "id": "WHL6-Pq"
+    },
+    {
+      "articleId": "1",
+      "text": "user test comment",
+      "userId": "2",
+      "id": "dtOy07a"
+    },
+    {
+      "articleId": "1",
+      "text": "123",
+      "userId": "2",
+      "id": "87LpGpE"
+    },
+    {
+      "articleId": "1",
+      "text": "1111",
+      "userId": "2",
+      "id": "CnwVrX5"
     }
   ],
   "users": [
@@ -120,14 +144,28 @@
       "avatar": "https://i.pravatar.cc/300?img=13"
     }
   ],
-  "profile": {
-    "first": "Taras",
-    "lastname": "Shyika",
-    "age": 34,
-    "currency": "USD",
-    "country": "US",
-    "city": "Lviv",
-    "username": "admin",
-    "avatar": "https://i.pravatar.cc/300?img=14"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Taras",
+      "lastname": "Shyika",
+      "age": 34,
+      "currency": "USD",
+      "country": "US",
+      "city": "Lviv",
+      "username": "admin",
+      "avatar": "https://i.pravatar.cc/300?img=14"
+    },
+    {
+      "id": "2",
+      "first": "John",
+      "lastname": "Jons",
+      "age": 24,
+      "currency": "UAH",
+      "country": "Ukraine",
+      "city": "Lviv",
+      "username": "john",
+      "avatar": "https://i.pravatar.cc/300?img=15"
+    }
+  ]
 }
