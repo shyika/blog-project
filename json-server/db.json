@@ -14,145 +14,261 @@
   "articles": [
     {
       "id": "1",
-      "title": "Javascript news",
-      "subtitle": "What's new in JS for 2022?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "title": "JavaScript Updates",
+      "subtitle": "New Features in ECMAScript 2023",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "views": 1200,
+      "createdAt": "20.05.2023",
       "userId": "1",
-      "type": [
-        "IT"
-      ],
+      "type": ["IT"],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar using a certain language.",
-            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written any JS code yet and are reading this in a browser on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
-            "There are other ways to run JS code in the browser. When we talk about typical JavaScript programs, they are loaded into the browser to ensure the functionality of web pages. Typically, the code is in separate .js files that are connected to web pages, but the program code can also be embedded directly into the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. You can read more about the <script> tag on w3school.com. Specifically, let's consider an example showing how to work with a web page using JavaScript, as provided on this resource. You can run this example with the Try it Yourself button, but we'll do it differently. We'll create a new file in a text editor (e.g., VS Code or Notepad++), name it hello.html, and add the following code to it:"
-          ]
-        },
-        {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar using a certain language.",
-            "There are other ways to run JS code in the browser. When we talk about typical JavaScript programs, they are loaded into the browser to ensure the functionality of web pages. Typically, the code is in separate .js files that are connected to web pages, but the program code can also be embedded directly into the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. You can read more about the <script> tag on w3school.com. Specifically, let's consider an example showing how to work with a web page using JavaScript, as provided on this resource. You can run this example with the Try it Yourself button, but we'll do it differently. We'll create a new file in a text editor (e.g., VS Code or Notepad++), name it hello.html, and add the following code to it:"
-          ]
+          "title": "Introduction",
+          "paragraphs": ["JavaScript keeps evolving with new ECMAScript updates."]
         },
         {
           "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Figure 1 - Screenshot of the website"
+          "type": "CODE",
+          "code": "const newFeature = () => console.log('New ECMAScript feature!');"
         },
         {
           "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written any JS code yet and are reading this in a browser on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
-            "There are other ways to run JS code in the browser. When we talk about typical JavaScript programs, they are loaded into the browser to ensure the functionality of web pages. Typically, the code is in separate .js files that are connected to web pages, but the program code can also be embedded directly into the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. You can read more about the <script> tag on w3school.com. Specifically, let's consider an example showing how to work with a web page using JavaScript, as provided on this resource. You can run this example with the Try it Yourself button, but we'll do it differently. We'll create a new file in a text editor (e.g., VS Code or Notepad++), name it hello.html, and add the following code to it:"
-          ]
-        },
-        {
-          "id": "8",
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Figure 1 - Screenshot of the website"
-        },
-        {
-          "id": "9",
-          "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written any JS code yet and are reading this in a browser on a desktop computer, it means you're literally seconds away from your first JavaScript program."
-          ]
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png",
+          "title": "ES2023 Feature"
         }
       ]
     },
     {
       "id": "2",
-      "title": "Javascript news",
-      "subtitle": "What's new in JS for 2022?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "title": "The Future of Quantum Computing",
+      "subtitle": "How Quantum Computing Will Revolutionize Science",
+      "img": "https://media.licdn.com/dms/image/D4E12AQG9cTvpXr36HQ/article-cover_image-shrink_720_1280/0/1699703661017?e=2147483647&v=beta&t=1Duu6WKu-4HMHHnAd8Q7YP_wah7SmFu0W7mfxnrbplc",
+      "views": 950,
+      "createdAt": "15.03.2023",
       "userId": "1",
-      "type": [
-        "IT"
-      ],
+      "type": ["SCIENCE"],
       "blocks": [
         {
           "id": "1",
           "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar using a certain language.",
-            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written any JS code yet and are reading this in a browser on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
-            "There are other ways to run JS code in the browser. When we talk about typical JavaScript programs, they are loaded into the browser to ensure the functionality of web pages. Typically, the code is in separate .js files that are connected to web pages, but the program code can also be embedded directly into the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. You can read more about the <script> tag on w3school.com. Specifically, let's consider an example showing how to work with a web page using JavaScript, as provided on this resource. You can run this example with the Try it Yourself button, but we'll do it differently. We'll create a new file in a text editor (e.g., VS Code or Notepad++), name it hello.html, and add the following code to it:"
-          ]
-        },
+          "title": "Quantum Basics",
+          "paragraphs": ["Quantum computing is set to change the world of science."]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "The Global Economy in 2024",
+      "subtitle": "Key Trends Shaping Global Economics",
+      "img": "https://www.brookings.edu/wp-content/uploads/2024/01/shutterstock_2205373389.jpg?quality=75",
+      "views": 870,
+      "createdAt": "10.02.2023",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
         {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
+          "id": "1",
           "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "The program traditionally called 'Hello, world!' is very simple. It outputs the phrase 'Hello, world!' or something similar using a certain language.",
-            "There are other ways to run JS code in the browser. When we talk about typical JavaScript programs, they are loaded into the browser to ensure the functionality of web pages. Typically, the code is in separate .js files that are connected to web pages, but the program code can also be embedded directly into the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. You can read more about the <script> tag on w3school.com. Specifically, let's consider an example showing how to work with a web page using JavaScript, as provided on this resource. You can run this example with the Try it Yourself button, but we'll do it differently. We'll create a new file in a text editor (e.g., VS Code or Notepad++), name it hello.html, and add the following code to it:"
-          ]
+          "title": "Economic Overview",
+          "paragraphs": ["The global economy faces new challenges in 2024."]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "TypeScript vs JavaScript",
+      "subtitle": "Choosing the Right Tool for Web Development",
+      "img": "https://www.tatvasoft.com/blog/wp-content/uploads/2022/12/JavaScript-vs-TypeScript-_-Key-Comparison-1-768x389.jpg",
+      "views": 1330,
+      "createdAt": "28.01.2023",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Key Differences",
+          "paragraphs": ["TypeScript enhances JavaScript with type safety for scalable applications."]
         },
         {
           "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Figure 1 - Screenshot of the website"
+          "type": "CODE",
+          "code": "let example: string = 'TypeScript vs JavaScript';"
         },
         {
           "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written any JS code yet and are reading this in a browser on a desktop computer, it means you're literally seconds away from your first JavaScript program.",
-            "There are other ways to run JS code in the browser. When we talk about typical JavaScript programs, they are loaded into the browser to ensure the functionality of web pages. Typically, the code is in separate .js files that are connected to web pages, but the program code can also be embedded directly into the page's code. All of this is done using the <script> tag. When the browser encounters such code, it executes it. You can read more about the <script> tag on w3school.com. Specifically, let's consider an example showing how to work with a web page using JavaScript, as provided on this resource. You can run this example with the Try it Yourself button, but we'll do it differently. We'll create a new file in a text editor (e.g., VS Code or Notepad++), name it hello.html, and add the following code to it:"
-          ]
-        },
-        {
-          "id": "8",
           "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Figure 1 - Screenshot of the website"
+          "src": "https://www.tatvasoft.com/blog/wp-content/uploads/2022/12/JavaScript-vs-TypeScript-_-Key-Comparison-1-768x389.jpg",
+          "title": "TypeScript Code"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "AI's Role in Healthcare",
+      "subtitle": "How AI Is Advancing Medical Science",
+      "img": "https://media.licdn.com/dms/image/D4D12AQGp7fjtZ3vnKA/article-cover_image-shrink_720_1280/0/1687518793231?e=2147483647&v=beta&t=anVFXBoSs4jNkwaLHE2_YfiCaZYlIZu9HaV_OUWLEt0",
+      "views": 765,
+      "createdAt": "12.12.2022",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "AI in Medicine",
+          "paragraphs": ["Artificial Intelligence is revolutionizing healthcare technologies."]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "The Rise of Decentralized Finance (DeFi)",
+      "subtitle": "Understanding the DeFi Ecosystem",
+      "img": "https://tcognition.com/wp-content/uploads/2024/09/DeFi.png",
+      "views": 940,
+      "createdAt": "05.01.2023",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "DeFi Overview",
+          "paragraphs": ["Decentralized Finance is changing traditional banking and investment."]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Next.js 13: A Comprehensive Guide",
+      "subtitle": "All About Server-Side Rendering",
+      "img": "https://www.linearloop.io/_next/image?url=https%3A%2F%2Flinearloop-cms-storage.s3.amazonaws.com%2Flinearloop-cms%2FWhat_s_New_In_Next_js_13_b738a054af.jpg&w=2048&q=75",
+      "views": 1100,
+      "createdAt": "08.04.2023",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Next.js Overview",
+          "paragraphs": ["Next.js simplifies server-side rendering for modern web apps."]
         },
         {
-          "id": "9",
+          "id": "2",
+          "type": "CODE",
+          "code": "export async function getServerSideProps() { return { props: { data } }; }"
+        },
+        {
+          "id": "3",
+          "type": "IMAGE",
+          "src": "",
+          "title": "Next.js Server Rendering"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Fusion Energy Breakthrough",
+      "subtitle": "The Next Step in Energy Science",
+      "img": "https://c.files.bbci.co.uk/143DC/production/_132580928_jetinteriorwithsuperimposedplasma-1.jpg",
+      "views": 890,
+      "createdAt": "02.06.2023",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
           "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "JavaScript is a language that can be executed in different environments. In our case, we're talking about browsers and the Node.js server platform. If you haven't written any JS code yet and are reading this in a browser on a desktop computer, it means you're literally seconds away from your first JavaScript program."
-          ]
+          "title": "Fusion Energy",
+          "paragraphs": ["Fusion energy is closer to reality, offering clean energy for the future."]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Understanding Blockchain Economics",
+      "subtitle": "How Blockchain is Transforming Financial Systems",
+      "img": "https://www.investopedia.com/thmb/pzT2wbISy-wNtMypVlBjr39dydg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Blockchain_final-086b5b7b9ef74ecf9f20fe627dba1e34.png",
+      "views": 720,
+      "createdAt": "11.03.2023",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Blockchain Impact",
+          "paragraphs": ["Blockchain technology is reshaping financial transactions."]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "The Evolution of Machine Learning",
+      "subtitle": "How Machine Learning is Advancing AI",
+      "img": "https://cdn.clickworker.com/wp-content/uploads/2022/08/Timeline1943.webp",
+      "views": 680,
+      "createdAt": "09.07.2023",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "ML Basics",
+          "paragraphs": ["Machine Learning is key to the future of artificial intelligence."]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Global Inflation Trends",
+      "subtitle": "What to Expect in 2024",
+      "img": "https://economistwritingeveryday.com/wp-content/uploads/2024/03/image-1.png?w=1024",
+      "views": 880,
+      "createdAt": "25.04.2023",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Inflation Outlook",
+          "paragraphs": ["Global inflation rates are expected to rise in key markets."]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "DevOps for Frontend Engineers",
+      "subtitle": "Bridging the Gap Between Dev and Ops",
+      "img": "https://i.ytimg.com/vi/uk1pWPNWofk/sddefault.jpg",
+      "views": 960,
+      "createdAt": "14.05.2023",
+      "userId": "1",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction to DevOps",
+          "paragraphs": ["DevOps helps streamline development and deployment processes."]
+        },
+        {
+          "id": "2",
+          "type": "CODE",
+          "code": "const deploy = () => console.log('Deployment successful!');"
+        },
+        {
+          "id": "3",
+          "type": "IMAGE",
+          "src": "https://www.cloudfulcrum.com/wp-content/uploads/2023/08/best-devops-tools-1.jpg",
+          "title": "DevOps Tools"
         }
       ]
     }
